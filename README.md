@@ -1,6 +1,6 @@
 # lit-sqlite3-sample
 
-Tests and Examples for SQLite lit package
+Tests and Examples for SQLite lit package https://github.com/nihildeb/lit-sqlite3
 
 A sample app using nihildeb/sqlite3 on lit.luvit.io
 
