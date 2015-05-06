@@ -3,9 +3,21 @@ return {
   version = "0.0.0",
   homepage = "https://github.com/nihildeb/lit-sqlite3-sample",
   dependencies = {
+    -- project deps
     "luvit/require@1.1.0",
-    "luvit/pretty-print@1.0.1",
-    "nihildeb/sqlite3"
+    "nihildeb/sqlite3@1.0.0",
+
+    -- luv fs mod and deps
+    "luvit/fs@1.1.0",
+    "luvit/utils@1",
+    "luvit/path@1",
+    "luvit/los@1",
+    "luvit/core@1",
+    "luvit/stream@1",
+
+    -- test deps
+    "luvit/tap@0.1.0",
+    "luvit/deep-equal@0.1.0",
   },
   files = {
     "*.lua",
